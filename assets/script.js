@@ -35,11 +35,12 @@ const team = [
   }
 ];
 
+// Creazione output in schede di bootstrap
 for(let member of team){
   console.log(member);
   output.innerHTML += `
     <div class="col">
-        <div class="card mx-2 my-3">
+        <div class="card my-3">
         <img src="${member.img}" class="card-img-top alt="${member.name}">
           <div class="card-body">
             <h5 class="card-title">${member.name}</h5>
