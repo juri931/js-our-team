@@ -1,3 +1,6 @@
+// Dichiarazione output
+const output = document.querySelector('.output');
+
 // Array con oggetti
 const team = [
   {
@@ -31,3 +34,8 @@ const team = [
     img: "assets/img/barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+for(let member of team){
+  console.log(member);
+  
+}
